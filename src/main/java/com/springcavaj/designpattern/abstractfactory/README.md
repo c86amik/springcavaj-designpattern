@@ -1,6 +1,6 @@
 # springcavaj-designpattern
 
-# Abstract Factory - Creational Desing Pattern
+# Abstract Factory - Creational Design Pattern
 
 ## A good understanding of the usage of AbstractFactory Design Pattern
 
