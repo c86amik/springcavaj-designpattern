@@ -21,8 +21,7 @@ public class AbstractFactoryMasterclassApplication {
 	
 	public AbstractFactoryMasterclassApplication(MobileFactory mobileFactory, TabletFactory tabletFactory) {
 		mobile = mobileFactory.makeMobile();
-		mobile = mobileFactory.playMobileGames();
-		tablet = tabletFactory.playGames();
+		tablet = tabletFactory.makeTablet();
 	}
 	
 	public void humanActivities() {

@@ -10,18 +10,13 @@ import com.springcavaj.designpattern.abstractfactory.execution.TabletFactory;
 public class SamsungMobileFactory implements MobileFactory, TabletFactory {
 
 	@Override
-	public Tablet playGames() {
-		return new SamsungTablet();
-	}
-
-	@Override
 	public Mobile makeMobile() {
 		return new SamsungMobile();
 	}
 
 	@Override
-	public Mobile playMobileGames() {
-		return new SamsungMobile();
+	public Tablet makeTablet() {
+		return new SamsungTablet();
 	}
 
 }

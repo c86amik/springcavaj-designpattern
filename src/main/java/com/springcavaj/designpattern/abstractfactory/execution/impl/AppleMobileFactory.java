@@ -24,13 +24,9 @@ public class AppleMobileFactory implements MobileFactory, TabletFactory {
 	}
 
 	@Override
-	public Mobile playMobileGames() {
-		return new AppleMobile();
-	}
-
-	@Override
-	public Tablet playGames() {
+	public Tablet makeTablet() {
 		return new AppleTablet();
 	}
+
 
 }
