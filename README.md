@@ -14,10 +14,9 @@
 <code>git clone https://github.com/c86amik/springcavaj-designpattern.git</code>
 * Open either <strong>STS</strong> or <strong>Eclipse</strong> and import the application as <strong>Maven</strong> project
 * The application got successfully imported in either <strong>STS</strong> or <strong>Eclipse</strong>
-* Right Click on the application, select the <strong>Run As</strong> option, and then select <strong>Spring Boot App</strong>
-* The application will start in the port <strong>7113</strong>
-* Open the Postman and test the REST Endpoints
 
-### Testing using Postman
+### Testing the various Design Patterns
 
+* Factory Design Pattern - [README.md](https://github.com/c86amik/springcavaj-designpattern/blob/main/src/main/java/com/springcavaj/designpattern/factory/README.md)
 * Abstract Factory Design Pattern - [README.md](https://github.com/c86amik/springcavaj-designpattern/blob/main/src/main/java/com/springcavaj/designpattern/abstractfactory/README.md)
+* Builder Design Pattern - [README.md](https://github.com/c86amik/springcavaj-designpattern/blob/main/src/main/java/com/springcavaj/designpattern/builder/README.md)
