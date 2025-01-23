@@ -16,9 +16,6 @@ public class BuilderMasterclassApplication {
 	
 	private static Logger logger = LoggerFactory.getLogger(BuilderMasterclassApplication.class);
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		SpringBoot springBoot = new SpringBoot.SpringBootBuilder("@Controller", "@Repository", "@Entity")
 				.setAnnotationService("@Service")
