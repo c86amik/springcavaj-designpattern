@@ -9,7 +9,7 @@
 * Right click on the class named as PrototypeMasterclassApplication.java.
 * Select the <strong>Run As</strong> option and <strong>Java Application</strong>.
 * Application will run successfully and will produce the desired output as provided below.
-* In the below output by printing the hash value of the original and clone depicts that both are differnet objets by using the `clone()` method concept.
+* In the below output by printing the hash value of the original and clone depicts that both are different objects by using the `clone()` method concept.
 
 ### Console output
 INFO com.springcavaj.designpattern.prototype.PrototypeMasterclassApplication - Original Spring Prototype Object : SpringPrototypeImpl [dependencyInjection=DI, inversionOfControl=IOC] and hash code is : 2047329716
