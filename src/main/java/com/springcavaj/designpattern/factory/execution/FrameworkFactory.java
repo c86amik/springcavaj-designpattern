@@ -16,7 +16,7 @@ import com.springcavaj.designpattern.factory.design.impl.SpringBoot;
 public class FrameworkFactory {
 	
 	private static final String SPRING = "Spring";
-	private static final String SPRING_BOOT = "SpringBoot";
+	private static final String SPRING_BOOT = "Spring";
 	
 	public Framework getFramework(String frameworkType) {
 		if(!StringUtils.hasText(frameworkType)) {

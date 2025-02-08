@@ -30,7 +30,7 @@ public class SpringBoot {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("SpringBoot [annotationController=");
+		builder.append("Spring [annotationController=");
 		builder.append(annotationController);
 		builder.append(", annotationService=");
 		builder.append(annotationService);
