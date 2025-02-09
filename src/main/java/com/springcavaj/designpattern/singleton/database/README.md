@@ -10,6 +10,8 @@
 * After installing the MySQL search in the Start command with MySQL and you will found the MySQL Command Line Client.
 * Hit the Enter button it will open a Command Prompt and opt for password.
 * Provide the password MySQL Server will get connected.
+* Now run the <strong>create_table.sql</strong> file in any MySQL Client.
+* It will create the table named as <strong>single_instance</strong> where we will test the Database backed Singleton Design Pattern.
 * Import the application from GitHub Link.
 * After successfully importing the application either in <strong>Eclipse</strong> or <strong>STS</strong>.
 * Right click on the class named as DatabaseBackedSingletonMasterclassApplication.java.
