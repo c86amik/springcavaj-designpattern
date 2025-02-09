@@ -18,10 +18,8 @@ public class DatabaseBackedSingletonMasterclassApplication {
 	public static void main(String[] args) {
 		DatabaseSingleton singleton = DatabaseSingleton.getInstance();
         LOG.info("Initial Data: {}", singleton.getInstanceData());
-
         // Update Singleton instance data
         singleton.updateInstanceData("Updated Singleton Data in Distributed Systems.");
-
         // Fetch instance again to check if data is updated
         DatabaseSingleton singleton2 = DatabaseSingleton.getInstance();
         LOG.info("Updated Data: {}", singleton2.getInstanceData());
