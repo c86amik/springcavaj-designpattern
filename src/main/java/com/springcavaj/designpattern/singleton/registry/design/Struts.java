@@ -19,7 +19,7 @@ public class Struts {
 	private Struts() {}
 	
 	public void xmlBasedConf() {
-		LOG.info("Struts MVC Framework : {}", struts.hashCode());
+		LOG.info("Struts MVC OOPFramework : {}", struts.hashCode());
 	}
 	
 	public static Struts getInstance() {

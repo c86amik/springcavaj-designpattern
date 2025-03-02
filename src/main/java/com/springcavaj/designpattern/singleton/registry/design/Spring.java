@@ -18,7 +18,7 @@ public class Spring {
 	private Spring() {}
 	
 	public void dependencyInjection() {
-		LOG.info("Spring MVC Framework : {}", spring.hashCode());
+		LOG.info("Spring MVC OOPFramework : {}", spring.hashCode());
 	}
 	
 	public static Spring getInstance() {
