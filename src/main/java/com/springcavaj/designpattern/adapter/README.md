@@ -11,7 +11,14 @@
 * Application will run successfully and will produce the desired output as provided below.
 
 ### Console output
+INFO com.springcavaj.designpattern.adapter.AdapterMasterclassApplication - Class Adapter (Using Inheritance)
+
 INFO com.springcavaj.designpattern.adapter.design.SpringBootFramework - Spring Boot follows Inversion Of Control
 
 INFO com.springcavaj.designpattern.adapter.design.impl.FrameworkAdapter - Struts doesn't follow Inversion of Control
 
+INFO com.springcavaj.designpattern.adapter.AdapterMasterclassApplication - Object Adapter (Using Composition)
+
+INFO com.springcavaj.designpattern.adapter.design.SpringBootFramework - Spring Boot follows Inversion Of Control
+
+INFO com.springcavaj.designpattern.adapter.design.impl.ObjectFrameworkAdapter - Struts doesn't follow Inversion of Control
