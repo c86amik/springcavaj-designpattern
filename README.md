@@ -20,3 +20,5 @@
 * Factory Design Pattern - [README.md](https://github.com/c86amik/springcavaj-designpattern/blob/main/src/main/java/com/springcavaj/designpattern/factory/README.md)
 * Abstract Factory Design Pattern - [README.md](https://github.com/c86amik/springcavaj-designpattern/blob/main/src/main/java/com/springcavaj/designpattern/abstractfactory/README.md)
 * Builder Design Pattern - [README.md](https://github.com/c86amik/springcavaj-designpattern/blob/main/src/main/java/com/springcavaj/designpattern/builder/README.md)
+* Prototype Design Pattern - [README.md](https://github.com/c86amik/springcavaj-designpattern/blob/main/src/main/java/com/springcavaj/designpattern/prototype/README.md)
+* Adapter Design Pattern - [README.md](https://github.com/c86amik/springcavaj-designpattern/blob/main/src/main/java/com/springcavaj/designpattern/adapter/README.md)
