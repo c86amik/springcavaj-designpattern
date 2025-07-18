@@ -11,7 +11,7 @@
 * Application will run successfully and will produce the desired output as provided below.
 
 ### Console output
-INFO com.springcavaj.designpattern.bridge.BridgeMasterclassApplication - Computuation for Circle 1 Object
+INFO com.springcavaj.designpattern.bridge.BridgeMasterclassApplication - Computation for Circle 1 Object
 
 INFO com.springcavaj.designpattern.bridge.design.impl.OpenGL - OpenGL: Drawing circle at (3.0 and 12.0) with radius 3.0
 
