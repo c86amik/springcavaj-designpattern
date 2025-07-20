@@ -13,9 +13,9 @@
 ### Console output
 INFO com.springcavaj.designpattern.decorator.DecoratorMasterclassApplication - Decorator Design Pattern Example
 
-INFO com.springcavaj.designpattern.decorator.DecoratorMasterclassApplication - Black Coffee Rs. 235.0
+INFO com.springcavaj.designpattern.decorator.DecoratorMasterclassApplication - Latte Coffee Rs. 235.0
 
-INFO com.springcavaj.designpattern.decorator.DecoratorMasterclassApplication - Black Coffee, Milk, Sugar Rs. 237.0
+INFO com.springcavaj.designpattern.decorator.DecoratorMasterclassApplication - Latte Coffee, Milk, Sugar Rs. 237.0
 
 INFO com.springcavaj.designpattern.decorator.DecoratorMasterclassApplication - Cappuccino Coffee Rs. 435.0
 

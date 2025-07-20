@@ -9,10 +9,10 @@ import com.springcavaj.designpattern.decorator.design.Coffee;
  * 
  * @author springcavaj
  */
-public class BlackCoffee implements Coffee {
+public class LatteCoffee implements Coffee {
 	
 	public String getDescription() {
-        return "Black Coffee";
+        return "Latte Coffee";
     }
     public double getCost() {
         return 235.0;

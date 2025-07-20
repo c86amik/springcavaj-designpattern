@@ -7,7 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.springcavaj.designpattern.decorator.design.Coffee;
-import com.springcavaj.designpattern.decorator.design.impl.BlackCoffee;
+import com.springcavaj.designpattern.decorator.design.impl.LatteCoffee;
 import com.springcavaj.designpattern.decorator.design.impl.CappuccinoCoffee;
 import com.springcavaj.designpattern.decorator.design.impl.MilkDecorator;
 import com.springcavaj.designpattern.decorator.design.impl.SugarDecorator;
@@ -22,13 +22,13 @@ public class DecoratorMasterclassApplication {
 
 	public static void main(String[] args) {
 		LOGGER.info("Decorator Design Pattern Example");
-		Coffee blackCoffee = new BlackCoffee();
-		LOGGER.info("{} Rs. {}", blackCoffee.getDescription(), blackCoffee.getCost());
+		Coffee latteCoffee = new LatteCoffee();
+		LOGGER.info("{} Rs. {}", latteCoffee.getDescription(), latteCoffee.getCost());
 
-        blackCoffee = new MilkDecorator(blackCoffee);
-        blackCoffee = new SugarDecorator(blackCoffee);
+        latteCoffee = new MilkDecorator(latteCoffee);
+        latteCoffee = new SugarDecorator(latteCoffee);
 
-        LOGGER.info("{} Rs. {}", blackCoffee.getDescription(), blackCoffee.getCost());
+        LOGGER.info("{} Rs. {}", latteCoffee.getDescription(), latteCoffee.getCost());
         
         Coffee cappuccino = new CappuccinoCoffee();
         LOGGER.info("{} Rs. {}", cappuccino.getDescription(), cappuccino.getCost());
